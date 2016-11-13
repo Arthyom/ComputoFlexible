@@ -53,11 +53,41 @@ namespace redNeuronal
 
         }
 
+        void Cargartoda()
+        { 
+            string ruta;
+            Label l1 = new Label();
+            l1.Size = new Size(100, 100);
+            l1.Location = new Point(20, 20);
+            l1.Text = "Cargando Imagenes";
+            l1.ForeColor = Color.White;
+            this.Controls.Add(l1);
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 1; j <= 1; j++)
+                {
+                    ruta = @"C:\Users\Frodo\documents\visual studio 2012\Projects\redNeuronal\redNeuronal\Imagenes\"
+                        + i.ToString() + "'s\\" + i + "." + j + ".bmp";
+                    CargarBmpFromFile(ruta);
+
+                    l1.Text = ("Cargando Imagenes .");
+                    l1.Refresh();
+                    l1.Text = ("Cargando Imagenes ..");
+                    l1.Refresh();
+                    l1.Text = ("Cargando Imagenes ...");
+                    l1.Refresh();
+                    l1.Text = ("Cargando Imagenes ....");
+                    l1.Refresh();
+
+                    
+                }
+            }
+        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             //cargar la imagen del 4
-            CargarBmpFromFile(@"C:\Users\Frodo\documents\visual studio 2012\Projects\redNeuronal\redNeuronal\Imagenes\4's\4.1.bmp");
+            Cargartoda();
 
             // crear una nueva red neuronal 
             this.RedNeuronalActual = new Red("red actual");

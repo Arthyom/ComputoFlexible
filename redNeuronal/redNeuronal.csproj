@@ -83,6 +83,17 @@
   <ItemGroup>
     <Content Include="Imagenes\4%27s\4.1.bmp" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Imagenes\0%27s\" />
+    <Folder Include="Imagenes\1%27s\" />
+    <Folder Include="Imagenes\2%27s\" />
+    <Folder Include="Imagenes\3%27s\" />
+    <Folder Include="Imagenes\5%27s\" />
+    <Folder Include="Imagenes\6%27s\" />
+    <Folder Include="Imagenes\7%27s\" />
+    <Folder Include="Imagenes\8%27s\" />
+    <Folder Include="Imagenes\9%27s\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
