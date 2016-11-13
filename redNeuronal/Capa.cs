@@ -20,15 +20,18 @@ namespace redNeuronal
         public      ArrayList   neuronas;
 
 
-
         /************************************************************************************
-                           metodos publicas de la clase neurona 
+                           metodos publicas de la clase capa
         ************************************************************************************/
-        public Capa()
+        public Capa( string nombCap, int idCap)
         {
             this.numeroNeuronas = 0;
-            this.nombreRed = "";
-            this.idNeurona = -1;     
+            this.nombreRed = nombCap;
+            this.idNeurona = idCap;     
+        }
+
+        public void AgregarNeurona ( Neurona NuevaNeurona )
+        {
         }
     }
 }
