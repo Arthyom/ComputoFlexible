@@ -1,1 +1,9 @@
 c:\users\frodo\documents\visual studio 2012\Projects\redNeuronal\redNeuronal\bin\Debug\redNeuronal.exe.config
+c:\users\frodo\documents\visual studio 2012\Projects\redNeuronal\redNeuronal\bin\Debug\redNeuronal.exe
+c:\users\frodo\documents\visual studio 2012\Projects\redNeuronal\redNeuronal\bin\Debug\redNeuronal.pdb
+c:\users\frodo\documents\visual studio 2012\Projects\redNeuronal\redNeuronal\obj\Debug\redNeuronal.csprojResolveAssemblyReference.cache
+c:\users\frodo\documents\visual studio 2012\Projects\redNeuronal\redNeuronal\obj\Debug\redNeuronal.Form1.resources
+c:\users\frodo\documents\visual studio 2012\Projects\redNeuronal\redNeuronal\obj\Debug\redNeuronal.Properties.Resources.resources
+c:\users\frodo\documents\visual studio 2012\Projects\redNeuronal\redNeuronal\obj\Debug\redNeuronal.csproj.GenerateResource.Cache
+c:\users\frodo\documents\visual studio 2012\Projects\redNeuronal\redNeuronal\obj\Debug\redNeuronal.exe
+c:\users\frodo\documents\visual studio 2012\Projects\redNeuronal\redNeuronal\obj\Debug\redNeuronal.pdb

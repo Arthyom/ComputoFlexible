@@ -17,7 +17,7 @@ namespace redNeuronal
         public      int         numeroNeuronas;
         public      string      nombreRed;
         public      int         idNeurona;
-        public      ArrayList   neuronas;
+        public      ArrayList   Neuronas;
 
 
         /************************************************************************************
@@ -27,11 +27,19 @@ namespace redNeuronal
         {
             this.numeroNeuronas = 0;
             this.nombreRed = nombCap;
-            this.idNeurona = idCap;     
+            this.idNeurona = idCap;
+            this.Neuronas = new ArrayList();
         }
 
         public void AgregarNeurona ( Neurona NuevaNeurona )
         {
+            this.Neuronas.Add(NuevaNeurona);
+            this.numeroNeuronas++;
+        }
+
+        public void info()
+        {
+            Console.WriteLine("Capa -> [" + nombreRed + "] numero Neuronas -> [" + numeroNeuronas + "]");
         }
     }
 }

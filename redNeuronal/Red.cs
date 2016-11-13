@@ -17,6 +17,7 @@ namespace redNeuronal
         public int          NumeroCapas;
         public int          NeuronasTotales;
         public ArrayList    Capas;
+        public string       NombreRed;
 
 
 
@@ -24,16 +25,23 @@ namespace redNeuronal
         /************************************************************************************
                               metodos publicas de la clase capa
         ************************************************************************************/
-        public Red() 
+        public Red( string nomRed ) 
         {
             this.NumeroCapas = 0;
             this.NeuronasTotales = 0;
+            this.NombreRed = nomRed;
+            this.Capas = new ArrayList();
         }
 
-        public void AgregarCapa(Neurona NuevaCapa)
+        public void AgregarCapa(Capa NuevaCapa)
         {
             this.Capas.Add(NuevaCapa);
             this.NumeroCapas++;
+        }
+
+        public void info()
+        {
+            Console.WriteLine("Red -> ["+ NombreRed + "] numero Capas ->[" + NumeroCapas+"]");
         }
     }
 }
